@@ -1,5 +1,5 @@
 class Array
   define_method(:queen_attack?) do |enemy_position|
-    return false
+    self[0] == enemy_position[0]
   end
 end
